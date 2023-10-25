@@ -69,8 +69,9 @@ fieldset ,.contact {
 /* CONTACT */
 
 /* RESOURCES */
-div > h1 {
-  margin-left: 30%;
+.h1 {
+  display: flex;
+  justify-content: center;
 }
 
 li {
@@ -78,3 +79,12 @@ li {
   padding-bottom: 25px;
 }
 /* RESOURCES */
+
+/* GALLERY */
+
+
+.gallery img {
+  width: 33%;
+  height: 500px;
+}
+/* GALLERY */

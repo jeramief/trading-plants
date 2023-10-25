@@ -1,8 +1,44 @@
+body {
+  background-image: url(/images/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  border-radius: 25%;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+}
+
+.bg-light {
+  margin: auto;
+  width: 70%;
+  background: #fff;
+}
 
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 0 20% 10px 20%;
+  padding: 10px 20% 10px 20%;
   border-bottom: 1px solid black;
   background: #F9B572;
+}
+
+main, section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 70%;
+}
+
+main img {
+  width: 20%;
+  margin-bottom: 20px;
 }

@@ -1,7 +1,16 @@
 body {
-  background-image: url(/images/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+  background-image: url(/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20% 10px 20%;
+  border-bottom: 1px solid black;
+  background: #F9B572;
 }
 
 nav a {
@@ -13,20 +22,15 @@ nav a {
   background-color: green;
   color: white;
 }
+/* NAV */
 
+/* HOME */
 .bg-light {
   margin: auto;
   width: 70%;
   background: #fff;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 20% 10px 20%;
-  border-bottom: 1px solid black;
-  background: #F9B572;
-}
 
 main, section {
   display: flex;
@@ -42,3 +46,26 @@ main img {
   width: 20%;
   margin-bottom: 20px;
 }
+/* HOME */
+
+/* CONTACT */
+form {
+  width: 50%;
+  background-color: #fff;
+  margin: 20px auto;
+
+}
+
+legend {
+  color: #fff;
+  background-color: green;
+}
+
+fieldset ,.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* CONTACT */
